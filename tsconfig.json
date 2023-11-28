@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "allowUnusedLabels": false,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "jsx": "react-native",
+    "lib": ["es6", "es2019"],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "strict": true,
+    "target": "esnext",
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "types": ["jest", "node"],
+    "strictNullChecks":  true,
+  },
+  "exclude": [
+    "__mocks__",
+    "src/**/__tests__/*",
+    "src/**/__data__/*",
+    "jest",
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js"
+  ],
+  "include": ["./src/**/*.ts", "./src/**/*.tsx", "index.d.ts"]
+}
