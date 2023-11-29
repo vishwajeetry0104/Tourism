@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InfoCard should render InfoCard component without issues 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+      "marginTop": 48,
+      "paddingHorizontal": 16,
+    }
+  }
+>
+  <SvgMock
+    fill="#FF5900"
+    height={48}
+    width={48}
+  />
+  <Text
+    style={
+      {
+        "color": "#FFFFFF",
+        "fontSize": 24,
+        "fontWeight": "700",
+        "letterSpacing": 0.24,
+        "paddingBottom": 8,
+      }
+    }
+  >
+    Testing title
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#FFFFFF",
+        "fontSize": 16,
+        "fontWeight": "700",
+        "letterSpacing": 0.24,
+        "paddingBottom": 8,
+      }
+    }
+  >
+    Nothing to display
+  </Text>
+</View>
+`;

@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spinner should render Spinner component without issues 1`] = `
+<Modal
+  hardwareAccelerated={false}
+  onDismiss={[Function]}
+  transparent={true}
+  visible={true}
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "column",
+        "justifyContent": "center",
+        "padding": 8,
+      }
+    }
+  >
+    <ActivityIndicator
+      animating={true}
+      color="#FFFFFF"
+      hidesWhenStopped={true}
+      size="large"
+    />
+    <Text
+      style={
+        {
+          "color": "#FFFFFF",
+          "fontSize": 20,
+          "fontWeight": "700",
+          "letterSpacing": 0.24,
+          "paddingBottom": 8,
+        }
+      }
+    >
+      Loading
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#FFFFFF",
+          "fontSize": 16,
+          "fontWeight": "700",
+          "letterSpacing": 0.24,
+          "paddingBottom": 8,
+        }
+      }
+    />
+  </View>
+</Modal>
+`;
+
+exports[`Spinner should render spinner with color 1`] = `
+<Modal
+  hardwareAccelerated={false}
+  onDismiss={[Function]}
+  transparent={true}
+  visible={true}
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "column",
+        "justifyContent": "center",
+        "padding": 8,
+      }
+    }
+  >
+    <ActivityIndicator
+      animating={true}
+      color="#000000"
+      hidesWhenStopped={true}
+      size="large"
+    />
+    <Text
+      style={
+        {
+          "color": "#FFFFFF",
+          "fontSize": 20,
+          "fontWeight": "700",
+          "letterSpacing": 0.24,
+          "paddingBottom": 8,
+        }
+      }
+    >
+      Loading
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#FFFFFF",
+          "fontSize": 16,
+          "fontWeight": "700",
+          "letterSpacing": 0.24,
+          "paddingBottom": 8,
+        }
+      }
+    />
+  </View>
+</Modal>
+`;
