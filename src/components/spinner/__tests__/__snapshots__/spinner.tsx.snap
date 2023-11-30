@@ -20,14 +20,14 @@ exports[`Spinner should render Spinner component without issues 1`] = `
   >
     <ActivityIndicator
       animating={true}
-      color="#FFFFFF"
+      color="#001A1A"
       hidesWhenStopped={true}
       size="large"
     />
     <Text
       style={
         {
-          "color": "#FFFFFF",
+          "color": "#001A1A",
           "fontSize": 20,
           "fontWeight": "700",
           "letterSpacing": 0.24,
@@ -40,7 +40,7 @@ exports[`Spinner should render Spinner component without issues 1`] = `
     <Text
       style={
         {
-          "color": "#FFFFFF",
+          "color": "#001A1A",
           "fontSize": 16,
           "fontWeight": "700",
           "letterSpacing": 0.24,
@@ -79,7 +79,7 @@ exports[`Spinner should render spinner with color 1`] = `
     <Text
       style={
         {
-          "color": "#FFFFFF",
+          "color": "#001A1A",
           "fontSize": 20,
           "fontWeight": "700",
           "letterSpacing": 0.24,
@@ -92,7 +92,7 @@ exports[`Spinner should render spinner with color 1`] = `
     <Text
       style={
         {
-          "color": "#FFFFFF",
+          "color": "#001A1A",
           "fontSize": 16,
           "fontWeight": "700",
           "letterSpacing": 0.24,

@@ -19,17 +19,17 @@ export default StyleSheet.create({
     padding: 8
   },
   ActivityIndicatorColorStyle: {
-    color: '#FFFFFF'
+    color: '#001A1A'
   },
   titleStyles: {
-    color: '#FFFFFF',
+    color: '#001A1A',
     fontSize: 20,
     fontWeight: '700',
     letterSpacing: 0.24,
     paddingBottom: 8,
   },
   subTitleStyles: {
-    color: '#FFFFFF',
+    color: '#001A1A',
     fontSize: 16,
     fontWeight: '700',
     letterSpacing: 0.24,

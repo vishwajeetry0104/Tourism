@@ -1,4 +1,6 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, Dimensions } from "react-native";
+
+const windowWidth = Dimensions.get('window').width;
 
 export default StyleSheet.create({
   container: {
@@ -6,8 +8,16 @@ export default StyleSheet.create({
     margin: 16,
     backgroundColor: '#FFFFFF',
     borderRadius: 8,
-    width: '75%',
-    maxWidth: 310
+    width: windowWidth * 0.80,
+    shadowColor: 'rgba(0, 128, 128, 0.16)',
+    shadowOffset: {
+      width: 2,
+      height: 5,
+    },
+    shadowOpacity: 0.29,
+    shadowRadius: 4.65,
+
+    elevation: 7
   },
   cardImage: {
     height: 170,

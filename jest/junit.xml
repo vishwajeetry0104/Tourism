@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TigerhallContent" tests="12" failures="0" errors="0" time="6.954">
+  <testsuite name="Home module" errors="0" failures="0" skipped="0" timestamp="2023-11-30T19:45:05" time="1.203" tests="9">
+    <testcase classname="Home module actions should able to fetch highlights" name="Home module actions should able to fetch highlights" time="0.014">
+    </testcase>
+    <testcase classname="Home module actions should able to fetch highlights" name="Home module actions should able to fetch highlights" time="0.003">
+    </testcase>
+    <testcase classname="Home module actions should resets the state when called action resetPodcasts" name="Home module actions should resets the state when called action resetPodcasts" time="0.002">
+    </testcase>
+    <testcase classname="Home module reducers fetch highlights sets loading true when fetching highlights is pending" name="Home module reducers fetch highlights sets loading true when fetching highlights is pending" time="0">
+    </testcase>
+    <testcase classname="Home module reducers fetch highlights sets the highlights and meta when highlights is fulfilled" name="Home module reducers fetch highlights sets the highlights and meta when highlights is fulfilled" time="0.001">
+    </testcase>
+    <testcase classname="Home module reducers fetch highlights sets loading false when fetching highlights is rejected" name="Home module reducers fetch highlights sets loading false when fetching highlights is rejected" time="0.001">
+    </testcase>
+    <testcase classname="Home module reducers fetch categories sets loading true when fetching categories is pending" name="Home module reducers fetch categories sets loading true when fetching categories is pending" time="0.001">
+    </testcase>
+    <testcase classname="Home module reducers fetch categories sets the highlights and meta when categories is fulfilled" name="Home module reducers fetch categories sets the highlights and meta when categories is fulfilled" time="0">
+    </testcase>
+    <testcase classname="Home module reducers fetch categories sets loading false when fetching categories is rejected" name="Home module reducers fetch categories sets loading false when fetching categories is rejected" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="InfoCard" errors="0" failures="0" skipped="0" timestamp="2023-11-30T19:45:05" time="2.582" tests="1">
+    <testcase classname="InfoCard should render InfoCard component without issues" name="InfoCard should render InfoCard component without issues" time="0.008">
+    </testcase>
+  </testsuite>
+  <testsuite name="Spinner" errors="0" failures="0" skipped="0" timestamp="2023-11-30T19:45:05" time="6.105" tests="2">
+    <testcase classname="Spinner should render Spinner component without issues" name="Spinner should render Spinner component without issues" time="0.008">
+    </testcase>
+    <testcase classname="Spinner should render spinner with color" name="Spinner should render spinner with color" time="0.002">
+    </testcase>
+  </testsuite>
+</testsuites>

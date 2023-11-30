@@ -1,19 +1,23 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { Text, Pressable, View } from 'react-native';
 import Styles from './CategoryItemStyles';
 import RightArrow from '../../assets/svg/right_arrow.svg';
 
 type Props = {
-  name: string
+  name: string,
+  onPressCategory: () => void;
 }
 
+
 const CategoryItem = (props: Props) => {
-  const {name} = props;
+  const {name, onPressCategory} = props;
   return (
-    <View style={Styles.container}>
+    <Pressable style={Styles.container} onPress={onPressCategory}>
       <Text style={Styles.name}>{name}</Text>
-      <RightArrow height={16} width={16} />
-    </View>
+      <View style={{}}>
+        <RightArrow height={16} width={16} />
+      </View>
+    </Pressable>
   );
 }
 
