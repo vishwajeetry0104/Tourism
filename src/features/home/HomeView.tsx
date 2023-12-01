@@ -12,6 +12,8 @@ import Spinner from "../../components/spinner/Spinner";
 import InfoCard from "../../components/infoCard/InfoCard";
 import Styles from './HomeStyles';
 
+import GradientText from "../../components/gradientText/GradientText";
+
 const HomeView = ({navigation}) => {
   const {width} = useWindowDimensions();
   const dispatch = useAppDispatch();
@@ -49,6 +51,7 @@ const HomeView = ({navigation}) => {
     }
     return (
       <HighlightCard
+        testID={item.title}
         title={item.title}
         description={item.description}
         image={item.image}
@@ -62,6 +65,7 @@ const HomeView = ({navigation}) => {
       return (
         <View style={[{width: width}, Styles.flatListEmptyComponentContainer]}>
           <InfoCard
+            testID='infoCard_highlights'
             headingTitle='No results'
             message={hasHighlightsFailed ? 'Something went wrong': 'Nothing to display'}
           />
@@ -83,10 +87,13 @@ const HomeView = ({navigation}) => {
     <>
       <ScrollView style={Styles.scrollViewContainer} contentContainerStyle={Styles.contentContainerStyle}>
         <ImageBackground source={HuwaiLandscape} style={{height: (width / 3) * 4, width: width}} resizeMode="cover">
-          <Text style={Styles.imageBackgroundText}>Welcome to Hawaii</Text>
+          <GradientText colors={['rgba(255, 255, 255, 0.05)', 'rgba(255, 255, 255, 0.90)']} style={Styles.imageBackgroundText}>
+            Welcome to Hawaii
+          </GradientText>
         </ImageBackground>
         <Text style={Styles.sectionLabelText}>Highlights</Text>
         <FlatList
+          testID="FlatList"
           keyExtractor={(item, index) => index.toString()}
           data={highLights}
           renderItem={renderItem}
@@ -103,6 +110,7 @@ const HomeView = ({navigation}) => {
         {hasCategoriesFailed ? (
           <View style={[Styles.flatListEmptyComponentContainer, {backgroundColor: 'transparent'}]}>
             <InfoCard
+              testID='infoCard_categories'
               headingTitle='No results'
               message={hasCategoriesFailed ? 'Something went wrong': 'Nothing to display'}
             />

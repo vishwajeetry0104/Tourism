@@ -5,13 +5,15 @@ import { ImageBackground, useWindowDimensions, Text, View, ScrollView, Alert } f
 import CategoryItem from "../../components/categoryItem/CategoryItem";
 import TappableButton from "../../components/button/TappableButton";
 import TravelGuideCard from "../../components/travelGuide/TravelGuideCard";
-import {fetchActivityDetail, resetActivity} from "./module/Activity";
+import {fetchActivityDetail, resetActivity, ActivityType} from "./module/Activity";
 import Spinner from "../../components/spinner/Spinner";
 import InfoCard from "../../components/infoCard/InfoCard";
 import Styles from './ActivityViewStyles';
+import GradientText from "../../components/gradientText/GradientText";
+import PlaceHolderImage from '../../assets/images/placeholder.png';
 
 type Props = {
-  activityType: string
+  activityType: ActivityType
 }
 
 const ActivityView = ({activityType}: Props) => {
@@ -39,20 +41,28 @@ const ActivityView = ({activityType}: Props) => {
         {hasFailed ? (
           <View style={[Styles.flatListEmptyComponentContainer, {backgroundColor: 'transparent'}]}>
             <InfoCard
+              testID="infoCard_activity"
               headingTitle='No results'
               message={hasFailed ? 'Something went wrong': 'Nothing to display'}
             />
           </View>
         ) : (
           <>
-            <ImageBackground source={{uri: activityTypes[activityType]?.image || null}} style={{height: (width / 3) * 2, width: width}} resizeMode="cover">
-              <Text style={Styles.imageBackgroundText}>{activityTypes[activityType]?.name}</Text>
+            <ImageBackground source={activityTypes[activityType]?.image ? {uri: activityTypes[activityType]?.image} : PlaceHolderImage} style={{height: (width / 3) * 2, width: width}} resizeMode="cover">
+              <GradientText colors={['rgba(255, 255, 255, 0.20)', 'rgba(255, 255, 255, 0.90)']} style={Styles.imageBackgroundText}>
+                {activityTypes[activityType]?.name}
+              </GradientText>
             </ImageBackground>
             <Text style={Styles.descriptionText}>{activityTypes[activityType]?.description}</Text>
             <Text style={[Styles.sectionLabelText, {backgroundColor: 'transparent'}]}>Top spots</Text>
             {activityTypes[activityType]?.activities.map((item) => {
               return (
-                <CategoryItem key={item.name} name={item.name} onPressCategory={() => onPressCategory(item.name)} />
+                <CategoryItem
+                  testID={item.name}
+                  key={item.name}
+                  name={item.name}
+                  onPressCategory={() => onPressCategory(item.name)}
+                />
               )
             })}
           </>

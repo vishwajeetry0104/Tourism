@@ -4,7 +4,7 @@ import * as React from 'react';
 import HomeScreen from '../features/home/HomeView';
 import ActivityScreen from "../features/activity/ActivityView";
 import TabBar from './tabBar/TabBar';
-import Header from './header/Header';
+import Header from '../components/header/Header';
 
 const Tab = createBottomTabNavigator();
 

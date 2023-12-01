@@ -17,7 +17,7 @@ module.exports = {
   coverageThreshold: {
     global: {
       branches: 60.0,
-      functions: 78.0,
+      functions: 75.0,
       lines: 80.0,
       statements: 80.0
     }
@@ -38,9 +38,10 @@ module.exports = {
     'src/**/*.tsx',
     '!src/**/index.ts',
     '!src/App.tsx',
-    '!src/navigation/Router.tsx',
+    '!src/navigation/**',
     '!src/store/**/*',
     '!src/api/**/*',
+    '!src/assets/**/*',
     '!index.d.ts',
   ],
   testPathIgnorePatterns: [

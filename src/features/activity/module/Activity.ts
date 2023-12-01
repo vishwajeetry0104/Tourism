@@ -23,7 +23,7 @@ interface InitialStateType {
   hasFailed: boolean;
 }
 
-const defaultActivityDetail = {
+export const defaultActivityDetail = {
   name: '',
   description: '',
   image: '',
@@ -40,7 +40,9 @@ export const initialState: InitialStateType = {
   hasFailed: false
 };
 
-export const fetchActivityDetail = createAsyncThunk('activity/details', async ({activityType}: {activityType: string}) => {
+export type ActivityType = 'Surfing' | 'Traditional Festivals' | 'Volcanoes';
+
+export const fetchActivityDetail = createAsyncThunk('activity/details', async ({activityType}: {activityType: ActivityType}) => {
   const response = await API.get(`/v1/activities/${activityType}`);
   return response?.data;
 });

@@ -6,6 +6,7 @@ import InfoCardStyles from './InfoCardStyles';
 type Props = {
     headingTitle: string,
     message: string,
+    testID?: string
 }
 
 const InfoCard = (props: Props) => {

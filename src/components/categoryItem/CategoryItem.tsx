@@ -6,6 +6,7 @@ import RightArrow from '../../assets/svg/right_arrow.svg';
 type Props = {
   name: string,
   onPressCategory: () => void;
+  testID?: string;
 }
 
 

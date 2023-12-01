@@ -54,6 +54,7 @@ yarn-error.log
 
 # Bundle artifact
 *.jsbundle
+coverage
 
 # Ruby / CocoaPods
 /ios/Pods/
@@ -66,3 +67,7 @@ yarn-error.log
 /coverage
 
 /.bundle
+
+# Tests
+jest/coverage
+jest/junit.xml

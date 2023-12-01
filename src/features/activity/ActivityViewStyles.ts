@@ -10,7 +10,7 @@ export default StyleSheet.create({
   },
   imageBackgroundText: {
     textAlign: 'center',
-    fontSize: 56,
+    fontSize: 40,
     fontWeight: '700',
     lineHeight: 56,
     color: '#FFF',

@@ -1,0 +1,431 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActivityView should render ActivityView component without issues 1`] = `
+[
+  <RCTScrollView
+    contentContainerStyle={
+      {
+        "paddingBottom": 100,
+      }
+    }
+    style={
+      {
+        "backgroundColor": "#E6F2F2",
+        "flex": 1,
+      }
+    }
+  >
+    <View>
+      <View
+        accessibilityIgnoresInvertColors={true}
+        style={
+          {
+            "height": 500,
+            "width": 750,
+          }
+        }
+      >
+        <Image
+          resizeMode="cover"
+          source={
+            {
+              "uri": "https://storage.googleapis.com/topics-images/web-dev-images/surfing.jpg",
+            }
+          }
+          style={
+            [
+              {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              {
+                "height": 500,
+                "width": 750,
+              },
+              undefined,
+            ]
+          }
+        />
+        <Text
+          style={
+            [
+              {
+                "color": "#FFF",
+                "fontSize": 40,
+                "fontWeight": "700",
+                "lineHeight": 56,
+                "marginTop": "25%",
+                "textAlign": "center",
+              },
+              {
+                "opacity": 0,
+              },
+            ]
+          }
+        >
+          Surfing
+        </Text>
+      </View>
+      <Text
+        style={
+          {
+            "backgroundColor": "#FFF",
+            "color": "#001A1A",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "lineHeight": 24,
+            "paddingHorizontal": 16,
+            "paddingVertical": 40,
+          }
+        }
+      >
+        Hawaii is known for its world-famous surf spots and waves that attract surfers from all over the globe. Here are some of the best islands for surfing in Hawaii:
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "backgroundColor": "#FFF",
+              "color": "#001A1A",
+              "fontSize": 16,
+              "fontWeight": "700",
+              "lineHeight": 20,
+              "padding": 16,
+            },
+            {
+              "backgroundColor": "transparent",
+            },
+          ]
+        }
+      >
+        Top spots
+      </Text>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderRadius": 8,
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginHorizontal": 16,
+            "marginVertical": 4,
+            "padding": 24,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#001A1A",
+              "flexWrap": "wrap",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "paddingRight": 8,
+              "width": "80%",
+            }
+          }
+        >
+          North Shore, Oahu
+        </Text>
+        <View
+          style={{}}
+        >
+          <SvgMock
+            height={16}
+            width={16}
+          />
+        </View>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderRadius": 8,
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginHorizontal": 16,
+            "marginVertical": 4,
+            "padding": 24,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#001A1A",
+              "flexWrap": "wrap",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "paddingRight": 8,
+              "width": "80%",
+            }
+          }
+        >
+          Waimea Bay, Oahu
+        </Text>
+        <View
+          style={{}}
+        >
+          <SvgMock
+            height={16}
+            width={16}
+          />
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "backgroundColor": "#FFFFFF",
+            "borderRadius": 8,
+            "flex": 1,
+            "justifyContent": "center",
+            "margin": 16,
+            "padding": 24,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View>
+            <Text
+              style={
+                {
+                  "color": "#001A1A",
+                  "fontSize": 24,
+                  "fontWeight": "700",
+                  "paddingBottom": 16,
+                }
+              }
+            >
+              Hadwin Malone
+            </Text>
+            <Text
+              style={
+                {
+                  "color": "#001A1A",
+                  "fontSize": 16,
+                  "fontWeight": "400",
+                  "lineHeight": 20,
+                  "paddingBottom": 8,
+                }
+              }
+            >
+              Guide since 2012
+            </Text>
+          </View>
+          <SvgMock
+            height={74}
+            width={74}
+          />
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignSelf": "flex-start",
+              "backgroundColor": "#FFF",
+              "borderColor": "#008080",
+              "borderRadius": 8,
+              "borderWidth": 1,
+              "marginTop": 16,
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#008080",
+                "fontSize": 16,
+                "fontWeight": "700",
+                "paddingHorizontal": 24,
+                "paddingVertical": 8,
+              }
+            }
+          >
+            Contact
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>,
+  <Modal
+    hardwareAccelerated={false}
+    onDismiss={[Function]}
+    transparent={true}
+    visible={false}
+  />,
+  <View
+    style={
+      {
+        "bottom": 0,
+        "left": 0,
+        "paddingBottom": 16,
+        "position": "absolute",
+        "right": 0,
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#008080",
+          "borderRadius": 8,
+          "elevation": 7,
+          "marginHorizontal": 16,
+          "paddingBottom": 11,
+          "paddingHorizontal": 24,
+          "paddingTop": 9,
+          "shadowColor": "rgba(7, 56, 56, 0.80)",
+          "shadowOffset": {
+            "height": 3,
+            "width": 0,
+          },
+          "shadowOpacity": 0.29,
+          "shadowRadius": 4.65,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#FFFFFF",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 20,
+          }
+        }
+      >
+        Book a trip
+      </Text>
+    </View>
+  </View>,
+]
+`;

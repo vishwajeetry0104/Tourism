@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render Header component without issues 1`] = `
+<RCTSafeAreaView
+  style={
+    {
+      "backgroundColor": "#FFFFFF",
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "padding": 20,
+      }
+    }
+  >
+    <SvgMock
+      height={35}
+      width={94}
+    />
+  </View>
+</RCTSafeAreaView>
+`;

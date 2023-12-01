@@ -1,0 +1,1092 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeView should render HomeView component without issues 1`] = `
+[
+  <RCTScrollView
+    contentContainerStyle={
+      {
+        "paddingBottom": 100,
+      }
+    }
+    style={
+      {
+        "backgroundColor": "#E6F2F2",
+        "flex": 1,
+      }
+    }
+  >
+    <View>
+      <View
+        accessibilityIgnoresInvertColors={true}
+        style={
+          {
+            "height": 1000,
+            "width": 750,
+          }
+        }
+      >
+        <Image
+          resizeMode="cover"
+          source={
+            {
+              "process": [Function],
+            }
+          }
+          style={
+            [
+              {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              {
+                "height": 1000,
+                "width": 750,
+              },
+              undefined,
+            ]
+          }
+        />
+        <Text
+          style={
+            [
+              {
+                "color": "#FFF",
+                "fontSize": 56,
+                "fontWeight": "700",
+                "lineHeight": 56,
+                "marginTop": "40%",
+                "textAlign": "center",
+              },
+              {
+                "opacity": 0,
+              },
+            ]
+          }
+        >
+          Welcome to Hawaii
+        </Text>
+      </View>
+      <Text
+        style={
+          {
+            "backgroundColor": "#FFF",
+            "color": "#001A1A",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 20,
+            "padding": 16,
+          }
+        }
+      >
+        Highlights
+      </Text>
+      <RCTScrollView
+        ListEmptyComponent={
+          <View
+            style={
+              [
+                {
+                  "width": 750,
+                },
+                {
+                  "backgroundColor": "#FFF",
+                  "height": 200,
+                },
+              ]
+            }
+          >
+            <Spinner
+              animating={false}
+              inline={true}
+              subTitle="highlights"
+              testID="loader"
+            />
+          </View>
+        }
+        contentContainerStyle={
+          {
+            "alignItems": "flex-start",
+            "backgroundColor": "#FFFFFF",
+          }
+        }
+        data={
+          [
+            {
+              "description": "Best Hawaiian islands for surfing.",
+              "image": "https://storage.googleapis.com/topics-images/web-dev-images/surfing_low.png",
+              "title": "Surfing",
+            },
+            {
+              "description": "Best places to attend traditional festivals in Hawaii",
+              "image": "https://storage.googleapis.com/topics-images/web-dev-images/traditional_festivals_low.png",
+              "title": "Traditional Festivals",
+            },
+            {
+              "description": "Volcanic conditions can change at any time.",
+              "image": "https://storage.googleapis.com/topics-images/web-dev-images/volcanoes_low.png",
+              "title": "Volcanoes",
+            },
+          ]
+        }
+        extraData={
+          {
+            "hasHighlightsFailed": false,
+            "highLights": [
+              {
+                "description": "Best Hawaiian islands for surfing.",
+                "image": "https://storage.googleapis.com/topics-images/web-dev-images/surfing_low.png",
+                "title": "Surfing",
+              },
+              {
+                "description": "Best places to attend traditional festivals in Hawaii",
+                "image": "https://storage.googleapis.com/topics-images/web-dev-images/traditional_festivals_low.png",
+                "title": "Traditional Festivals",
+              },
+              {
+                "description": "Volcanic conditions can change at any time.",
+                "image": "https://storage.googleapis.com/topics-images/web-dev-images/volcanoes_low.png",
+                "title": "Volcanoes",
+              },
+            ],
+            "loadingHighlights": false,
+          }
+        }
+        getItem={[Function]}
+        getItemCount={[Function]}
+        horizontal={true}
+        keyExtractor={[Function]}
+        onContentSizeChange={[Function]}
+        onLayout={[Function]}
+        onMomentumScrollBegin={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScroll={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        removeClippedSubviews={false}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        stickyHeaderIndices={[]}
+        testID="FlatList"
+        viewabilityConfigCallbackPairs={[]}
+      >
+        <View>
+          <View
+            onFocusCapture={[Function]}
+            onLayout={[Function]}
+            style={
+              [
+                {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              style={
+                {
+                  "backgroundColor": "#FFFFFF",
+                  "borderRadius": 8,
+                  "elevation": 7,
+                  "justifyContent": "center",
+                  "margin": 16,
+                  "shadowColor": "rgba(0, 128, 128, 0.16)",
+                  "shadowOffset": {
+                    "height": 5,
+                    "width": 2,
+                  },
+                  "shadowOpacity": 0.29,
+                  "shadowRadius": 4.65,
+                  "width": 600,
+                }
+              }
+            >
+              <Image
+                source={
+                  {
+                    "uri": "https://storage.googleapis.com/topics-images/web-dev-images/surfing_low.png",
+                  }
+                }
+                style={
+                  {
+                    "borderTopLeftRadius": 8,
+                    "borderTopRightRadius": 8,
+                    "height": 170,
+                    "width": "100%",
+                  }
+                }
+              />
+              <View
+                style={
+                  {
+                    "padding": 24,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "#008080",
+                      "fontSize": 24,
+                      "fontWeight": "700",
+                      "paddingBottom": 16,
+                    }
+                  }
+                >
+                  Surfing
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#001A1A",
+                      "fontSize": 16,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                      "paddingBottom": 8,
+                    }
+                  }
+                >
+                  Best Hawaiian islands for surfing.
+                </Text>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignItems": "flex-end",
+                      "height": 40,
+                      "paddingTop": 6,
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <SvgMock
+                    height={40}
+                    width={40}
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            onFocusCapture={[Function]}
+            onLayout={[Function]}
+            style={
+              [
+                {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              style={
+                {
+                  "backgroundColor": "#FFFFFF",
+                  "borderRadius": 8,
+                  "elevation": 7,
+                  "justifyContent": "center",
+                  "margin": 16,
+                  "shadowColor": "rgba(0, 128, 128, 0.16)",
+                  "shadowOffset": {
+                    "height": 5,
+                    "width": 2,
+                  },
+                  "shadowOpacity": 0.29,
+                  "shadowRadius": 4.65,
+                  "width": 600,
+                }
+              }
+            >
+              <Image
+                source={
+                  {
+                    "uri": "https://storage.googleapis.com/topics-images/web-dev-images/traditional_festivals_low.png",
+                  }
+                }
+                style={
+                  {
+                    "borderTopLeftRadius": 8,
+                    "borderTopRightRadius": 8,
+                    "height": 170,
+                    "width": "100%",
+                  }
+                }
+              />
+              <View
+                style={
+                  {
+                    "padding": 24,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "#008080",
+                      "fontSize": 24,
+                      "fontWeight": "700",
+                      "paddingBottom": 16,
+                    }
+                  }
+                >
+                  Traditional Festivals
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#001A1A",
+                      "fontSize": 16,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                      "paddingBottom": 8,
+                    }
+                  }
+                >
+                  Best places to attend traditional festivals in Hawaii
+                </Text>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignItems": "flex-end",
+                      "height": 40,
+                      "paddingTop": 6,
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <SvgMock
+                    height={40}
+                    width={40}
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            onFocusCapture={[Function]}
+            onLayout={[Function]}
+            style={
+              [
+                {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              style={
+                {
+                  "backgroundColor": "#FFFFFF",
+                  "borderRadius": 8,
+                  "elevation": 7,
+                  "justifyContent": "center",
+                  "margin": 16,
+                  "shadowColor": "rgba(0, 128, 128, 0.16)",
+                  "shadowOffset": {
+                    "height": 5,
+                    "width": 2,
+                  },
+                  "shadowOpacity": 0.29,
+                  "shadowRadius": 4.65,
+                  "width": 600,
+                }
+              }
+            >
+              <Image
+                source={
+                  {
+                    "uri": "https://storage.googleapis.com/topics-images/web-dev-images/volcanoes_low.png",
+                  }
+                }
+                style={
+                  {
+                    "borderTopLeftRadius": 8,
+                    "borderTopRightRadius": 8,
+                    "height": 170,
+                    "width": "100%",
+                  }
+                }
+              />
+              <View
+                style={
+                  {
+                    "padding": 24,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "#008080",
+                      "fontSize": 24,
+                      "fontWeight": "700",
+                      "paddingBottom": 16,
+                    }
+                  }
+                >
+                  Volcanoes
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#001A1A",
+                      "fontSize": 16,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                      "paddingBottom": 8,
+                    }
+                  }
+                >
+                  Volcanic conditions can change at any time.
+                </Text>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignItems": "flex-end",
+                      "height": 40,
+                      "paddingTop": 6,
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <SvgMock
+                    height={40}
+                    width={40}
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </RCTScrollView>
+      <Text
+        style={
+          [
+            {
+              "backgroundColor": "#FFF",
+              "color": "#001A1A",
+              "fontSize": 16,
+              "fontWeight": "700",
+              "lineHeight": 20,
+              "padding": 16,
+            },
+            {
+              "backgroundColor": "transparent",
+            },
+          ]
+        }
+      >
+        Catergories
+      </Text>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderRadius": 8,
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginHorizontal": 16,
+            "marginVertical": 4,
+            "padding": 24,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#001A1A",
+              "flexWrap": "wrap",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "paddingRight": 8,
+              "width": "80%",
+            }
+          }
+        >
+          Adventure
+        </Text>
+        <View
+          style={{}}
+        >
+          <SvgMock
+            height={16}
+            width={16}
+          />
+        </View>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderRadius": 8,
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginHorizontal": 16,
+            "marginVertical": 4,
+            "padding": 24,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#001A1A",
+              "flexWrap": "wrap",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "paddingRight": 8,
+              "width": "80%",
+            }
+          }
+        >
+          :Culinary
+        </Text>
+        <View
+          style={{}}
+        >
+          <SvgMock
+            height={16}
+            width={16}
+          />
+        </View>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderRadius": 8,
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginHorizontal": 16,
+            "marginVertical": 4,
+            "padding": 24,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#001A1A",
+              "flexWrap": "wrap",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "paddingRight": 8,
+              "width": "80%",
+            }
+          }
+        >
+          :Eco-tourism
+        </Text>
+        <View
+          style={{}}
+        >
+          <SvgMock
+            height={16}
+            width={16}
+          />
+        </View>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderRadius": 8,
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginHorizontal": 16,
+            "marginVertical": 4,
+            "padding": 24,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#001A1A",
+              "flexWrap": "wrap",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "paddingRight": 8,
+              "width": "80%",
+            }
+          }
+        >
+          :Family
+        </Text>
+        <View
+          style={{}}
+        >
+          <SvgMock
+            height={16}
+            width={16}
+          />
+        </View>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderRadius": 8,
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginHorizontal": 16,
+            "marginVertical": 4,
+            "padding": 24,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#001A1A",
+              "flexWrap": "wrap",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "paddingRight": 8,
+              "width": "80%",
+            }
+          }
+        >
+          :Sport
+        </Text>
+        <View
+          style={{}}
+        >
+          <SvgMock
+            height={16}
+            width={16}
+          />
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "backgroundColor": "#FFFFFF",
+            "borderRadius": 8,
+            "flex": 1,
+            "justifyContent": "center",
+            "margin": 16,
+            "padding": 24,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View>
+            <Text
+              style={
+                {
+                  "color": "#001A1A",
+                  "fontSize": 24,
+                  "fontWeight": "700",
+                  "paddingBottom": 16,
+                }
+              }
+            >
+              Hadwin Malone
+            </Text>
+            <Text
+              style={
+                {
+                  "color": "#001A1A",
+                  "fontSize": 16,
+                  "fontWeight": "400",
+                  "lineHeight": 20,
+                  "paddingBottom": 8,
+                }
+              }
+            >
+              Guide since 2012
+            </Text>
+          </View>
+          <SvgMock
+            height={74}
+            width={74}
+          />
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignSelf": "flex-start",
+              "backgroundColor": "#FFF",
+              "borderColor": "#008080",
+              "borderRadius": 8,
+              "borderWidth": 1,
+              "marginTop": 16,
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#008080",
+                "fontSize": 16,
+                "fontWeight": "700",
+                "paddingHorizontal": 24,
+                "paddingVertical": 8,
+              }
+            }
+          >
+            Contact
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>,
+  <View
+    style={
+      {
+        "bottom": 0,
+        "left": 0,
+        "paddingBottom": 16,
+        "position": "absolute",
+        "right": 0,
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#008080",
+          "borderRadius": 8,
+          "elevation": 7,
+          "marginHorizontal": 16,
+          "paddingBottom": 11,
+          "paddingHorizontal": 24,
+          "paddingTop": 9,
+          "shadowColor": "rgba(7, 56, 56, 0.80)",
+          "shadowOffset": {
+            "height": 3,
+            "width": 0,
+          },
+          "shadowOpacity": 0.29,
+          "shadowRadius": 4.65,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#FFFFFF",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 20,
+          }
+        }
+      >
+        Book a trip
+      </Text>
+    </View>
+  </View>,
+]
+`;

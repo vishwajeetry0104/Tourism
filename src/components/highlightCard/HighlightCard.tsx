@@ -8,6 +8,7 @@ type Props = {
   description: string;
   image: string;
   onHighlightPress: () => void;
+  testID?: string;
 }
 
 const HighLightCard = (props: Props) => {

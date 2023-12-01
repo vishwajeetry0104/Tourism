@@ -15,6 +15,7 @@ export default StyleSheet.create({
     lineHeight: 56,
     color: '#FFF',
     marginTop: '40%'
+
   },
   sectionLabelText: {
     fontSize: 16,
